@@ -2,25 +2,25 @@
   {
     "id": "63363ad33c9446d8a13ea7c4",
     "name": "Cycling",
-    "description": "Cycling improves overall function in your lower body and strengthens your leg muscles",
-    "age": "20-25",
-    "time": "50S",
-    "image": "./images/Cycling.jpg"
+    "description": "Cycling improves overall function in your lower body & strengthens leg muscles",
+    "age": "5-50",
+    "time": "50 S",
+    "picture": "./images/Cycling.jpg"
   },
   {
     "id": "63363ad34bfd3de96e62873c",
-    "description": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease",
+    "description": "Weight lifting with dumbbells lowers your risk of heart attack & stroke",
     "name": "Dumbbell",
     "age": "20-25",
-    "time": "50S",
+    "time": "50 S",
     "picture": "./images/Dumb bell.jpg"
   },
   {
     "id": "63363ad32e487b42c808f3d8",
-    "description": "Running Improve cardiovascular fitness and help maintain a healthy weight.",
+    "description": "Improve cardiovascular fitness and help maintain a healthy weight.",
     "name": "Running",
-    "age": "20-25",
-    "time": "50S",
+    "age": "15-45",
+    "time": "50 S",
     "picture": "./images/running.jpg"
   },
   {
@@ -28,23 +28,23 @@
     "description": "single-leg exercises increase proprioception and reduce body and muscle imbalances.",
     "name": "Single-leg-balance",
     "age": "20-25",
-    "time": "50S",
+    "time": "55 S",
     "picture": "./images/single-leg-balance.jpg"
   },
   {
     "id": "63363ad3afef151340a70384",
     "description": "It's official. Tennis really is the healthiest, life-adding sport you can play",
     "name": "Tennis",
-    "age": "20-25",
-    "time": "50S",
+    "age": "15-35",
+    "time": "55 S",
     "picture": "./images/Tennis.jpg"
   },
   {
     "id": "63363ad32ebb29db08bf10d3",
-    "description": " improved posture, better sleep, gaining bone density, maintaining weight loss, boosting metabolism,",
+    "description": " improved posture, better sleep, gaining bone density, maintaining weight loss,",
     "name": "Weight-lifting",
-    "age": "20-25",
-    "time": "50S",
+    "age": "20-30",
+    "time": "50 S",
     "picture": "./images/weight lifting.jpg"
   }
 

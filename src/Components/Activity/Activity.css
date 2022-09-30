@@ -1,0 +1,13 @@
+.activity-cart{
+    width: 210px;
+    height: 450px;
+    background-color: #FFFFFF;
+    padding-left: 10px ;
+    padding-top: 7px;
+    border-radius: 5px;
+}
+.activity-cart img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}

@@ -17,7 +17,7 @@ const Activities = () => {
             <div className="activity-container">
                <img src={logo} alt="" /> 
                 <h2>Select Your Activity</h2>
-                <div>
+                <div className='activity'>
                     {
                         activities.map(activity =><Activity 
                             key={activity.id}

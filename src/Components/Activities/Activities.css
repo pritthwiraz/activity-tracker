@@ -1,10 +1,23 @@
+body{
+    background-color: rgb(241, 240, 240);
+}
 .activites{
-    margin-top: 25px;
+    /* margin-top: 25px; */
     display: grid;
     grid-template-columns: 4fr 1fr;
+    
 }
 .activity-container{
     width: 80%;
     margin: auto;
+    
 
+}
+.activity{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+.activity-details{
+    background-color: #FFFFFF;
 }
