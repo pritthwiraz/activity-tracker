@@ -6,7 +6,9 @@ import Activity from '../Activity/Activity';
 
 const Activities = () => {
     const [activities, setActivities] = useState([]);
+    const [time, setTime] = useState([]);
 
+    
     useEffect( () =>{
         fetch('activity.json')
         .then(res=> res.json())
@@ -14,7 +16,9 @@ const Activities = () => {
     }, [])
 
     const addToList = (activity) => {
-        console.log(activity)
+        // console.log(activity)
+        const newTime = [...time, activity]
+        setTime(newTime)
     }
     return (        
             <div className='activites'>
@@ -59,8 +63,8 @@ const Activities = () => {
                 <div>
                     <h2>Exercise Details</h2>
                     <div className='ex-time'>
-                        <p>Exercise Time:</p>
-                        <p>0</p>
+                        <p>Exercise Time: {time.length}</p>
+                        <p></p>
                     </div>
                     <div className='ex-time'>
                         <p>Break Time:</p>

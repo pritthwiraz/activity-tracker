@@ -4,7 +4,7 @@
     "name": "Cycling",
     "description": "Cycling improves overall function in your lower body & strengthens leg muscles",
     "age": "5-50",
-    "time": "50 S",
+    "time": "50",
     "picture": "./images/Cycling.jpg"
   },
   {
@@ -12,7 +12,7 @@
     "description": "Weight lifting with dumbbells lowers your risk of heart attack & stroke",
     "name": "Dumbbell",
     "age": "20-25",
-    "time": "50 S",
+    "time": "50",
     "picture": "./images/Dumb bell.jpg"
   },
   {
@@ -20,7 +20,7 @@
     "description": "Improve cardiovascular fitness and help maintain a healthy weight.",
     "name": "Running",
     "age": "15-45",
-    "time": "50 S",
+    "time": "50",
     "picture": "./images/running.jpg"
   },
   {
@@ -28,7 +28,7 @@
     "description": "single-leg exercises increase proprioception and reduce body and muscle imbalances.",
     "name": "Single-leg-balance",
     "age": "20-25",
-    "time": "55 S",
+    "time": "55",
     "picture": "./images/single-leg-balance.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "description": "It's official. Tennis really is the healthiest, life-adding sport you can play",
     "name": "Tennis",
     "age": "15-35",
-    "time": "55 S",
+    "time": "55",
     "picture": "./images/Tennis.jpg"
   },
   {
@@ -44,7 +44,7 @@
     "description": " improved posture, better sleep, gaining bone density, maintaining weight loss,",
     "name": "Weight-lifting",
     "age": "20-30",
-    "time": "50 S",
+    "time": "50",
     "picture": "./images/weight lifting.jpg"
   }
 

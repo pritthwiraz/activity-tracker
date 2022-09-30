@@ -1,0 +1,10 @@
+.section-top{
+    width: 80%;
+    margin: auto;
+    background-color: azure;
+
+}
+.topic{
+    border: 2px solid burlywood;
+    margin-bottom: 5px;
+}
