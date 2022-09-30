@@ -1,0 +1,10 @@
+.activites{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.activity-container{
+    width: 80%;
+    margin: auto;
+
+}
