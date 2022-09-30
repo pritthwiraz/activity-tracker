@@ -33,14 +33,34 @@ const Activities = () => {
             </div>
             <div className="activity-details">
                 <h2>Pritthwi Raz</h2>
+                <div className='person-info'>
+                    <div>
+                    <p>70 KG</p>
+                    <p>Weight</p>    
+                    </div>
+                    <div>
+                    <p>6.1</p>
+                    <p>Height</p>    
+                    </div> 
+                    <div>
+                    <p>30 yr</p>
+                    <p>Age</p>    
+                    </div>  
+                </div>
                 <div>
-         
-                
+                    <h2>Add a Break</h2>
+                </div>
+                <div className='btn-break'>
+                    <button>10S</button>
+                    <button>20S</button>
+                    <button>30S</button>
+                    <button>40S</button>
                 </div>
             </div>
-        </div>
+            </div>
     
     );
 };
 
 export default Activities;
+

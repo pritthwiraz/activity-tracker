@@ -1,20 +1,20 @@
 
-
 .activites{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
     background-color: rgb(241, 240, 240)
 }
 .activity-container{
     width: 80%;
     margin: auto;
     margin-top: 25px;
-     margin-top: 25px;
+    margin-top: 25px;
+    /* padding-left: 20px; */
 }
 .activity{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 25px;
+    gap: 15px;
 }
 .activity-details{
     margin: 0;
@@ -25,7 +25,41 @@
 .activity-details h2{
     margin-top: 0;
     padding-top: 0;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
-.person-details{
-   
+.person-info{
+   display: flex;
+   width: 85%;
+   margin: auto;
+   background: lightgray;
+   padding: 10px;
+   margin-bottom: 25px;
 }
+.person-info p{
+    margin: 0;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+
+}
+.btn-break{
+    width: 85%;
+    margin: auto;
+    background: lightgray;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.btn-break button{
+    padding: 20px 20px 20px 20px;
+    margin-right: 2px;
+    /* text-align: center; */
+    border: none;
+    border-radius: 50px;
+
+}
+
+@media screen and (max-width:786px){
+
+    }
+    
+    
