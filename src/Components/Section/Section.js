@@ -24,7 +24,31 @@ what needs to be changed.</p>
             <p>props stands for properties.Props are arguments passed into React components.
 Props are passed to components via HTML attributes.React Props are like function 
 arguments in JavaScript and attributes in HTML.</p>
-            
+            <p> 1. By Props the Data is passed from one component to another. 
+                2. It is Immutable (cannot be modified).
+                3. Props can be used with state and functional components.
+                4. Props are read-only.</p>
+            <h4>useState</h4>
+            <p>The React useState Hook allows us to track state in a function component.State 
+generally refers to data or properties that need to be tracking in an application.</p>
+            <p>1. By State the Data is passed within the component only.
+2. It is Mutable ( can be modified).
+3. State can be used only with the state components.
+4. State is both read and write.</p>
+        </div>
+        <div className="topic">
+            <h3>Use of useEffect other than Data Loading?</h3>
+            <p>The useEffect Hook allows you to perform side effects in your components.
+Some examples of side effects are: fetching data, directly updating the DOM, 
+and timers.</p>
+        <h4>useEffect use cases</h4>
+            <p>
+            1. Running on state change: validating input field
+            2. Running on state change: live filtering
+            3. Running on state change: trigger animation on new array value
+            4. Running on props change: update paragraph list on fetched API data update
+            5. Running on props change: updating fetched API data to get BTC updated price
+            </p>
         </div>
         </div>
     );
