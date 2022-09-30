@@ -3,7 +3,7 @@ import Activities from './Components/Activities/Activities'
 
 function App() {
   return (
-    <div>
+    <div className='main-div'>
      <Activities></Activities>
   
     </div>

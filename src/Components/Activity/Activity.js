@@ -3,6 +3,7 @@ import "./Activity.css"
 
 const Activity = (props) => {
     const {picture, name, description, age, time} = props.activity
+   
     return (
         <div className='activity-cart'>
             <img src={picture} alt="" />
@@ -10,6 +11,7 @@ const Activity = (props) => {
             <p>{description}</p>
             <p>For Age: {age}</p>
             <p>Time Required:{time}</p>
+            <button onClick={() => {props.addToList(props.activity)}} className='btn-list'><p>Add To List</p></button>            
         </div>
     );
 };

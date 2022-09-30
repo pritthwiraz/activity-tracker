@@ -1,6 +1,6 @@
 .activity-cart{
     width: 210px;
-    height: 450px;
+    height: 435px;
     background-color: #FFFFFF;
     padding-left: 10px ;
     padding-top: 7px;
@@ -10,4 +10,11 @@
     width: 200px;
     height: 150px;
     border-radius: 20px;
+}
+.btn-list{
+    width: 200px;
+    background: rgb(140, 140, 236);
+    text-align: center;
+    border: 0px;
+    border-radius: 10px;
 }

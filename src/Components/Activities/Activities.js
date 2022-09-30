@@ -12,8 +12,12 @@ const Activities = () => {
         .then(res=> res.json())
         .then(data => setActivities(data))
     }, [])
-    return (
-        <div className='activites'>
+
+    const addToList = (activity) => {
+        console.log(activity)
+    }
+    return (        
+            <div className='activites'>
             <div className="activity-container">
                <img src={logo} alt="" /> 
                 <h2>Select Your Activity</h2>
@@ -21,15 +25,21 @@ const Activities = () => {
                     {
                         activities.map(activity =><Activity 
                             key={activity.id}
-                            activity ={activity}>    
-                            </Activity>)
+                            activity ={activity}
+                            addToList = {addToList}
+                            ></Activity>)
                     }
                 </div>
             </div>
             <div className="activity-details">
                 <h2>Pritthwi Raz</h2>
+                <div>
+         
+                
+                </div>
             </div>
         </div>
+    
     );
 };
 
