@@ -3,13 +3,15 @@ import "./Activities.css"
 import logo from '../../Activity Tracker Logo-.png'
 import Activity from '../Activity/Activity';
 import Exercise from '../Exercise/Exercise';
+import Break from '../Break/Break';
 
 
 const Activities = () => {
     const [activities, setActivities] = useState([]);
     const [time, setTime] = useState([]);
-
+    const [value, setValue] = useState([]);
     
+
     useEffect( () =>{
         fetch('activity.json')
         .then(res=> res.json())
@@ -22,6 +24,7 @@ const Activities = () => {
         const newTime = [...time, activity]
         setTime(newTime)
     }
+ 
 
     return (        
             <div className='activites'>
@@ -58,10 +61,10 @@ const Activities = () => {
                     <h2>Add a Break</h2>
                 </div>
                 <div className='btn-break'>
-                    <button value={10}>10S</button>
-                    <button value={10}>20S</button>
-                    <button value={10}>30S</button>
-                    <button value={10}>40S</button>
+                    <button onClick = {e => setValue(e.target.value)} value="10">10S</button>
+                    <button onClick = {e => setValue(e.target.value)} value="20">20S</button>
+                    <button onClick = {e => setValue(e.target.value)} value="30">30S</button>
+                    <button onClick = {e => setValue(e.target.value)} value="40">40S</button>
                 </div>
                 <div>
                     <h2>Exercise Details</h2>
@@ -69,8 +72,8 @@ const Activities = () => {
                      <Exercise time={time}></Exercise>
                     </div>
                     <div className='ex-time'>
-                        <p>Break Time: {}</p>
-                        <p>0</p>
+                        {/* <p>Break Time: {value}</p> */}
+                        <Break value ={value}></Break>
                     </div>
                 </div>
                 <button className='completed-activity'><p>Activity Completed</p></button>
