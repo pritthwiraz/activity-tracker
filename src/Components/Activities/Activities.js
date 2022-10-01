@@ -22,7 +22,6 @@ const Activities = () => {
         const newTime = [...time, activity]
         setTime(newTime)
     }
-   
 
     return (        
             <div className='activites'>
@@ -59,10 +58,10 @@ const Activities = () => {
                     <h2>Add a Break</h2>
                 </div>
                 <div className='btn-break'>
-                    <button>10S</button>
-                    <button>20S</button>
-                    <button>30S</button>
-                    <button>40S</button>
+                    <button value={10}>10S</button>
+                    <button value={10}>20S</button>
+                    <button value={10}>30S</button>
+                    <button value={10}>40S</button>
                 </div>
                 <div>
                     <h2>Exercise Details</h2>
@@ -70,7 +69,7 @@ const Activities = () => {
                      <Exercise time={time}></Exercise>
                     </div>
                     <div className='ex-time'>
-                        <p>Break Time: </p>
+                        <p>Break Time: {}</p>
                         <p>0</p>
                     </div>
                 </div>
