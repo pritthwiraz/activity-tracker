@@ -10,9 +10,11 @@ const Activity = (props) => {
             <h3>{name}</h3>
             <p>{description}</p>
             <p>For Age: {age}</p>
-            <p>Time Required:{time} S</p>
+            <p>Time Required:{time}S</p>
             <button onClick={() => {props.addToList(props.activity)}} className='btn-list'><p>Add To List</p></button>            
+                       
         </div>
+
     );
 };
 

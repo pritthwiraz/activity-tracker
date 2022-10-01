@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "./Activities.css"
 import logo from '../../Activity Tracker Logo-.png'
 import Activity from '../Activity/Activity';
+import Exercise from '../Exercise/Exercise';
 
 
 const Activities = () => {
@@ -15,11 +16,14 @@ const Activities = () => {
         .then(data => setActivities(data))
     }, [])
 
+
     const addToList = (activity) => {
         // console.log(activity)
         const newTime = [...time, activity]
         setTime(newTime)
     }
+   
+
     return (        
             <div className='activites'>
             <div className="activity-container">
@@ -63,11 +67,10 @@ const Activities = () => {
                 <div>
                     <h2>Exercise Details</h2>
                     <div className='ex-time'>
-                        <p>Exercise Time: {time.length}</p>
-                        <p></p>
+                     <Exercise time={time}></Exercise>
                     </div>
                     <div className='ex-time'>
-                        <p>Break Time:</p>
+                        <p>Break Time: </p>
                         <p>0</p>
                     </div>
                 </div>
